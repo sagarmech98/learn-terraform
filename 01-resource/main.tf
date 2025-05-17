@@ -27,4 +27,8 @@ resource "azurerm_virtual_machine" "test" {
     admin_username = "testing"
     admin_password = "Password@1234"
   }
+  os_profile_linux_config {
+    disable_password_authentication = false
+  }
 }
+  
