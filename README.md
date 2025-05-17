@@ -1,7 +1,7 @@
 # learn-terraform
 
 
-Session-19 : satrfff
+Session-19 :
 
 
-dddd
+create alocal image : 30:20
