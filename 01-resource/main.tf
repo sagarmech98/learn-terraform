@@ -9,6 +9,7 @@ resource "azurerm_virtual_machine" "test" {
   resource_group_name   = "Project"
   network_interface_ids = ["/subscriptions/72129bc2-1be7-4c6e-971e-9375ebd6c232/resourceGroups/Project/providers/Microsoft.Network/networkInterfaces/terrafrom-testing"]
   vm_size               = "Standard_B2als_v2"
+  
 
   delete_os_disk_on_termination = true
 
@@ -26,3 +27,4 @@ resource "azurerm_virtual_machine" "test" {
     admin_username = "testing"
     admin_password = "Password@1234"
   }
+}
